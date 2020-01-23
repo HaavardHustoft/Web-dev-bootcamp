@@ -1,0 +1,26 @@
+body {
+
+    background: url(https://i2.wp.com/blueseatblogs.com/wp-content/uploads/2018/07/consciousness-709143.jpg?resize=400%2C300&ssl=1);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+h1 {
+    color: #2f3236;
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+
+    border: 5px black solid;
+}
+
+
+li {
+    color: cornflowerblue;
+}
+
+h4 {
+    color: purple;
+}
