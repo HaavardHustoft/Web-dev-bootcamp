@@ -3,7 +3,21 @@ h1 {
     text-align: center;
 }
 
-div {
-    
+td {
+    width: 100px;
+    height: 100px;
 }
 
+.left {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.vertical {
+    border-bottom: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
