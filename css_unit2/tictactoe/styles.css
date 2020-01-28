@@ -8,16 +8,28 @@ td {
     height: 100px;
 }
 
-.left {
+.vertical {
     border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
-.vertical {
+.left {
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .right {
-    border-left: 1px solid black;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.middle-vertical {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+table {
+    margin: auto;
 }
