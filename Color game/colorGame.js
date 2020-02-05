@@ -54,12 +54,15 @@ resetButton.addEventListener("click", function(){
 
     colorDisplay.textContent = pickedColor;
 
+    messageDisplay.textContent = "";
+    this.textContent = "New Colors";
+
     for (var i = 0; i < squares.length; i++){
         //add initial colors to squares
         squares[i].style.backgroundColor = colors[i];
     }
 
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
 });
 
 colorDisplay.textContent = pickedColor;
