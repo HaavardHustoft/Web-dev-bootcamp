@@ -1,7 +1,9 @@
 var express = require("express");
 var app = express();
+const path = require("path");
 var request = require("request");
 app.set("view engine", "ejs");
+
 
 app.get("/results", function(req, res){
     var query = req.query.search;
@@ -13,9 +15,9 @@ app.get("/results", function(req, res){
         }
     })
 });
-
+ 
 app.get("/", function(req, res){
-    res.render("search");
+    res.sendFile(path.join(__dirname+"/views/search.html"));
 });
 
 app.listen(3000, (req,res) => {
